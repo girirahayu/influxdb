@@ -1,5 +1,5 @@
-volumes/
+volumes
+.env
 .history/
 .idea/
-.env
 .remote-sync.json

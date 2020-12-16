@@ -53,6 +53,8 @@ services:
       - ./volumes/chronograf:/var/lib/chronograf:rw
     depends_on:
       - influxdb
+    ports:
+     - "8888:8888"
     networks:
       default:
         aliases:
